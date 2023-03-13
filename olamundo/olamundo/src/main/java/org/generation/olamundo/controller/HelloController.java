@@ -15,7 +15,24 @@ public class HelloController {
 	}
 	@GetMapping("/bsm")
 	public String bsm() {
-		return "Orientação ao Fututo";
+		return "<br>BSM</br>"+"<br>- Persistência</br>"+
+				"<br>- Mentalidade de Crescimento</br>"+
+				"<br>- Orientação ao Futuro</br>"+
+				"<br>- Responsabilidade Pessoal</br>"+
+				"<br>- Trabalho em Equipe</br>"+
+				"<br>- Comunicação</br>"+
+				"<br>- Comunicação Não Violenta</br>"+
+				"<br>- Atenção para Detalhes</br>"+
+				"<br>- Proatividade</br>";
+	}
+
+	@GetMapping("/objetivo")
+	public String objetivo() {
+		return "<br>OBJETIVOS</br>"+"<br>- Focar no Projeto Integrador</br>"+
+				"<br>- Orghanização<br>"+
+				"<br>- Gestão de tempo</br>"+
+				"<br>- Revisão</br>"+
+				"<br>- Trabalho em equipe</br>";
 	}
 	
 }
